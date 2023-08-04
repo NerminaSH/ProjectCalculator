@@ -1,17 +1,16 @@
-
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
-body{
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium';
-    text-align: center;
-    margin-top: 40px;
-    background-image: url(/pexels-darius-krause-2182040.jpg);
-    color: rgb(255, 255, 255);
-    font-size: 30px;
+body {
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium';
+  text-align: center;
+  margin-top: 40px;
+  background-image: url(../img/pexels-darius-krause-2182040.jpg);
+  color: rgb(255, 255, 255);
+  font-size: 30px;
 }
 
 
@@ -38,18 +37,21 @@ body{
   text-align: right;
   font-size: 40px;
   cursor: wait;
-  
+
 }
 
-#btn {
+#btn,
+#btn1 {
   background-color: #f1eaed;
   color: black;
   font-size: 19px;
   font-weight: bold;
   cursor: grab;
-  
+
 }
-#btn:hover{
+
+#btn,
+#btn1:hover {
   background-color: black;
   color: #dcdbe1;
 }
@@ -68,18 +70,19 @@ input {
 }
 
 #divid {
-font-size: 15px;
+  font-size: 15px;
 }
 
-input:hover{
+input:hover {
   background-color: black;
   color: #dcdbe1;
 }
-div{
-font-size:20px; 
-display: flex; 
-align-items: center; 
-justify-content: center;
-margin-top:10px ;
-color: rgb(223, 194, 194);
+
+div {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  color: rgb(223, 194, 194);
 }
